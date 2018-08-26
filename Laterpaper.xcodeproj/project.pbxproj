@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		793511DE2124834500CE0B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511DD2124834500CE0B8C /* AppDelegate.swift */; };
-		793511E02124834500CE0B8C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511DF2124834500CE0B8C /* FirstViewController.swift */; };
-		793511E22124834500CE0B8C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511E12124834500CE0B8C /* SecondViewController.swift */; };
+		793511E02124834500CE0B8C /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511DF2124834500CE0B8C /* InboxViewController.swift */; };
+		793511E22124834500CE0B8C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511E12124834500CE0B8C /* SettingsViewController.swift */; };
 		793511E52124834500CE0B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793511E32124834500CE0B8C /* Main.storyboard */; };
 		793511E72124834600CE0B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793511E62124834600CE0B8C /* Assets.xcassets */; };
 		793511EA2124834600CE0B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793511E82124834600CE0B8C /* LaunchScreen.storyboard */; };
+		793511F2212493C500CE0B8C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511F1212493C500CE0B8C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		793511DA2124834500CE0B8C /* Laterpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laterpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793511DD2124834500CE0B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		793511DF2124834500CE0B8C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		793511E12124834500CE0B8C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		793511DF2124834500CE0B8C /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		793511E12124834500CE0B8C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		793511E42124834500CE0B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793511E62124834600CE0B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793511E92124834600CE0B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793511EB2124834600CE0B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793511F1212493C500CE0B8C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				793511DD2124834500CE0B8C /* AppDelegate.swift */,
-				793511DF2124834500CE0B8C /* FirstViewController.swift */,
-				793511E12124834500CE0B8C /* SecondViewController.swift */,
+				793511DF2124834500CE0B8C /* InboxViewController.swift */,
+				793511E12124834500CE0B8C /* SettingsViewController.swift */,
 				793511E32124834500CE0B8C /* Main.storyboard */,
 				793511E62124834600CE0B8C /* Assets.xcassets */,
 				793511E82124834600CE0B8C /* LaunchScreen.storyboard */,
 				793511EB2124834600CE0B8C /* Info.plist */,
+				793511F1212493C500CE0B8C /* HomeViewController.swift */,
 			);
 			path = Laterpaper;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793511E22124834500CE0B8C /* SecondViewController.swift in Sources */,
+				793511E22124834500CE0B8C /* SettingsViewController.swift in Sources */,
 				793511DE2124834500CE0B8C /* AppDelegate.swift in Sources */,
-				793511E02124834500CE0B8C /* FirstViewController.swift in Sources */,
+				793511E02124834500CE0B8C /* InboxViewController.swift in Sources */,
+				793511F2212493C500CE0B8C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.Laterpaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.Laterpaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

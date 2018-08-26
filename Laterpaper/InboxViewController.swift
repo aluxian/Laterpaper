@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  InboxViewController.swift
 //  Laterpaper
 //
 //  Created by Alexandru Rosianu on 15/08/2018.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class InboxViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     override func didReceiveMemoryWarning() {

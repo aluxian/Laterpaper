@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SettingsViewController.swift
 //  Laterpaper
 //
 //  Created by Alexandru Rosianu on 15/08/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
